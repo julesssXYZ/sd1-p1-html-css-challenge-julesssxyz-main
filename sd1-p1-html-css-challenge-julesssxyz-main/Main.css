@@ -43,6 +43,34 @@ img {
     margin: 0;
 }
 
+.tStartButton{
+    height: 50px;
+    background: linear-gradient(to right, #08ff00, #00a820);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 10%;
+    margin: 0;
+
+    img {
+        width: 30%;
+        height: 90%;
+        margin-left: -35%;
+    }
+
+    span {
+        font-family: "ui-sans-serif", Tahoma;
+        text-shadow: rgb(0 0 0 / 0.51) 2px 2px;
+        -webkit-text-stroke-width: thin;
+        position: absolute;
+        scale: 135%;
+        top: 30%;
+        left: 35%;
+        margin-left: 10%;
+        color: white;
+    }
+}
+
 .MainBackground{
     background-image: url("WindowsXPbackground.jpg");
     background-size: cover;
