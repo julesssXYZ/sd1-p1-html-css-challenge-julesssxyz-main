@@ -56,10 +56,10 @@ img {
 }
 
 .iTextFile{
-    top: 40px;
-    left: 200px;
     background-image: url("Icons/WindowsXPfile.png");
     background-size: cover;
+    top: 40px;
+    left: 40px;
 
     button {
         width: 100%;
