@@ -35,7 +35,7 @@ img {
 
 .TaskBar{
     height: 50px;
-    background: linear-gradient(#00c4ff, #0076ff);
+    background: linear-gradient(#009dff, #0076ff);
     position: fixed;
     bottom: 0;
     left: 0;
@@ -95,6 +95,7 @@ img {
         background-color: transparent;
         border: none;
         cursor: pointer;
+        transition: all 0.3s ease; /* Smooth transition */
     }
 
     span {
@@ -103,5 +104,33 @@ img {
         position: absolute;
         top: 100%;
         margin-left: -5%;
+    }
+}
+
+.iMusicPlayer {
+    background-image: url("Icons/windowsMEDIAFILE.png");
+    background-size: cover;
+    top: 40px;
+    left: 175px;
+
+    button {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease; /* Smooth transition */
+    }
+
+    button:active {
+        background-color: rgb(0,0,0);
+    }
+
+    span {
+        color: #f4f4f4;
+        font-family: "ui-sans-serif", Tahoma;
+        position: absolute;
+        top: 100%;
+        margin-left: -20%;
     }
 }
