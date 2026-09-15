@@ -1,11 +1,79 @@
-p{
+h1 {
+    background: linear-gradient(#b700ff, #ffc65d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
     font-family: "Comic Sans MS", cursive;
+    font-size: 300%;
 }
 
-body{
-    background-color: rgb(200,200,200);
+p {
+    font-family: "Oswald", cursive;
+    font-size: 125%;
 }
 
-.bigTextLeft{
+th {
+    background: linear-gradient(#230000, #b30000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 
+    font-family: "Oswald", cursive;
+    font-size: 125%;
+}
+
+img {
+    border-radius: 25px;
+    position: relative;
+    top: 5%;
+    left: 40%;
+}
+
+.specs{
+    width: 40%;
+    background-color: #ffd135;
+}
+
+.TaskBar{
+    height: 50px;
+    background: linear-gradient(#00c4ff, #0076ff);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+}
+
+.MainBackground{
+    background-image: url("WindowsXPbackground.jpg");
+    background-size: cover;
+}
+
+.icon{
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    background-color: transparent;
+}
+
+.iTextFile{
+    top: 40px;
+    left: 200px;
+    background-image: url("Icons/WindowsXPfile.png");
+    background-size: cover;
+
+    button {
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+
+    span {
+        color: #f4f4f4;
+        font-family: "ui-sans-serif", Tahoma;
+        position: absolute;
+        top: 100%;
+        margin-left: -5%;
+    }
 }
