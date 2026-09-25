@@ -83,6 +83,13 @@ img {
     background-color: transparent;
 }
 
+.special_icon{
+    width: 60px;
+    height: 75px;
+    position: absolute;
+    background-color: transparent;
+}
+
 .iTextFile{
     background-image: url("Icons/WindowsXPfile.png");
     background-size: cover;
@@ -159,6 +166,119 @@ img {
     }
 
     .specpopup:target {
+        display: grid;
+    }
+
+    span {
+        color: #f4f4f4;
+        font-family: "ui-sans-serif", Tahoma;
+        position: absolute;
+        top: 100%;
+        margin-left: 10%;
+    }
+}
+
+.iPngFile {
+    background-image: url("Icons/WindowsXPpngfile.png");
+    background-size: cover;
+    top: 40px;
+    left: 270px;
+
+    .buttonClick {
+        display: inline-block;
+        aspect-ratio: 1 / 1;
+        width: 100%;
+
+        background-color: transparent;
+        -webkit-text-fill-color: black;
+        border: none;
+        cursor: pointer;
+    }
+
+    .pngpopup {
+        display: none;
+        position: fixed;
+        inset: 30% 0 0 40%;
+    }
+
+    .pngpopup:target {
+        display: grid;
+    }
+
+    span {
+        color: #f4f4f4;
+        font-family: "ui-sans-serif", Tahoma;
+        position: absolute;
+        top: 100%;
+        margin-left: -5%;
+    }
+}
+
+.iFigma {
+    background-image: url("Icons/WindowsXPpngfile.png");
+    background-size: cover;
+    top: 150px;
+    left: 50px;
+
+    .buttonClick {
+        display: inline-block;
+        aspect-ratio: 1 / 1;
+        width: 100%;
+
+        background-color: transparent;
+        -webkit-text-fill-color: black;
+        border: none;
+        cursor: pointer;
+    }
+
+    .figmapopup {
+        display: none;
+        position: fixed;
+        inset: 30% 0 0 40%;
+    }
+
+    .figmapopup:target {
+        display: grid;
+    }
+
+    img
+    {
+        margin-left: -40%;
+    }
+
+    span {
+        color: #f4f4f4;
+        font-family: "ui-sans-serif", Tahoma;
+        position: absolute;
+        top: 100%;
+        margin-left: -5%;
+    }
+}
+
+.NOTICE {
+    background-image: url("Icons/WindowsXPfile.png");
+    background-size: cover;
+    top: 800px;
+    left: 1750px;
+
+    .buttonClick {
+        display: inline-block;
+        aspect-ratio: 1 / 1;
+        width: 100%;
+
+        background-color: transparent;
+        -webkit-text-fill-color: black;
+        border: none;
+        cursor: pointer;
+    }
+
+    .noticepopup {
+        display: none;
+        position: fixed;
+        inset: 30% 0 0 40%;
+    }
+
+    .noticepopup:target {
         display: grid;
     }
 
