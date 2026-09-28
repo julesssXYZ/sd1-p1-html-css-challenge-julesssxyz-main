@@ -205,6 +205,11 @@ img {
         display: grid;
     }
 
+    img
+    {
+        margin-left: -40%;
+    }
+
     span {
         color: #f4f4f4;
         font-family: "ui-sans-serif", Tahoma;
